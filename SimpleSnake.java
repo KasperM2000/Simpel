@@ -15,6 +15,7 @@ public class SimpleSnake extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.add(new GamePanel());
         this.setVisible(true);
+        //utilitidds
     }
 
     private class GamePanel extends JPanel implements KeyListener {
